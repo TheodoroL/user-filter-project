@@ -7,6 +7,7 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { provideNativeDateAdapter } from '@angular/material/core';
 import { MatSelectModule } from '@angular/material/select';
 import { MatButtonModule } from '@angular/material/button';
+import { MatTableModule } from '@angular/material/table';
 @NgModule({
   imports: [
     MatListModule,
@@ -16,6 +17,7 @@ import { MatButtonModule } from '@angular/material/button';
     MatDatepickerModule,
     MatButtonModule,
     MatSelectModule,
+    MatTableModule,
   ],
   exports: [
     MatListModule,
@@ -25,6 +27,7 @@ import { MatButtonModule } from '@angular/material/button';
     MatDatepickerModule,
     MatButtonModule,
     MatSelectModule,
+    MatTableModule,
   ],
   providers: [provideNativeDateAdapter()],
 })
